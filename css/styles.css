@@ -30,7 +30,6 @@ body {
 /* Team logo */
 .Team-logo{
   display: inline-block;
-  /* float: right; */
   padding-right: 10vw;
   max-height: 135px;
   position: relative;
@@ -79,7 +78,9 @@ body {
   align-items: center;
   padding: 10px 14px;
 }
-
+#upcoming_events_div{
+  justify-content: center;
+}
 .image-content{
   position: relative;
   row-gap: 5px;
@@ -111,13 +112,6 @@ body {
   border-radius: 0 25px 0 0;
   background-color: #FFF;
 }
-
-.section-title-event{
-margin-left: 292px;  
-text-align: center; 
-}
-
-
 .card-image{
   position: relative;
   height: 150px;
